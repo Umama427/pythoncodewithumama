@@ -1,0 +1,21 @@
+#Day 3: 25 sep 2024
+# condition use if num1 is 2 then symbol + then num2 is 3 so answer is 5 in this case
+num1 = int(input('Enter a number:'))
+symbol = input('Enter any symbol:')
+num2 = int(input('Enter a second number:'))
+if symbol == "+":
+    print(num1+num2)
+elif symbol == "-":
+    print(num1-num2)
+elif symbol == "*":
+    print(num1*num2)
+elif symbol == "/":
+    print(num1/num2)
+elif symbol == "%":
+    print(num1%num2)
+elif symbol == "**":
+    print(num1**num2)
+else:
+    print('invalid input')
+
+#********************************
