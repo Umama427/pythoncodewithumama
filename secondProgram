@@ -1,0 +1,5 @@
+#Day 2 : 24 Sep 2024
+#print greet and simple conversion:
+print("Python syntax is simple!")
+if 10>2:
+    print("10 is greater than 2!")
