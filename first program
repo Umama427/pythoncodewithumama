@@ -1,0 +1,11 @@
+print('Hello World!')
+my_name = input('Enter your name:')
+print(my_name)
+my_age1 = input('Enter your age:')
+print(my_age1)
+my_age2 = float(input('Enter your age:'))
+print(my_age2)
+
+print("The type of the data in variable 'myname' is:",type(my_name))
+print("The type of the data in variable 'myage1' is:",type(my_age1))
+print("The original type of the data in variable 'myage2' is:",type(my_age2))
