@@ -1,0 +1,8 @@
+# tables print
+multiplier= range (1,11)
+multiplicand= range(1,11)
+for m in multiplier:
+      print (f"Table of {m}:")
+      for n in multiplicand:
+          print(f"{m}*{n} = {m*n}",end="\t")
+      print()
